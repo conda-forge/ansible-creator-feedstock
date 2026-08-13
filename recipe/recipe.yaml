@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "26.4.3"
+  version: "26.8.0"
 
 package:
   name: ansible-creator
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ansible-creator/ansible_creator-${{ version }}.tar.gz
-  sha256: db8a33fa765f5a3cb4f17ac6856a2e9e93b2434a7ecf5cbbdd495d96b0ec71d1
+  sha256: f902fdd5e476eb471b886cf88b9d3d88ad7de25c2ebceea87001d0c92d4a23de
 
 build:
   noarch: python
